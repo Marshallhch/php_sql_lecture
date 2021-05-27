@@ -23,8 +23,9 @@
 
   <script>
     let sum = 0;
+    const abcd = true;
 
-    function numSum(){
+    function numSum(n){
       for(let i = 1; i <= n; i++){
         sum += i;
       }
@@ -32,12 +33,23 @@
     }
     console.log(numSum(10000));
 
+    console.log(typeof(abcd));
+
 
     function abc(a, b){
       return a + b;
     }
 
-    alert(abc(5, 6));
+    const aaa = "123";
+    const bbb = "3";
+    const ccc = aaa - bbb;
+
+    console.log(typeof(ccc));
+
+    console.log("안녕" + "마샬");
+
+    const arr = [1, 2, 3, 4];
+    console.log(arr.length);
   </script>
 </body>
 </html>

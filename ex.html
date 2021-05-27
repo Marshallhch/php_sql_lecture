@@ -5,8 +5,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    *{margin:0; padding:0; box-sizing: border-box;}
+    form{width:30%; margin:auto; height:auto;}
+    form label{width:30%; display:block; float:left; text-align:center;}
+    form input{width:70%; display:block; float:right;}
+    form input[type='submit']{width:100%;}
+  </style>
 </head>
 <body>
+
+  <form action="#">
+    <label for = "aa" class="cc">아이디</label>
+    <input type="text" id="aa"><br>
+
+    <label for = "bb" class="dd">비밀번호</label>
+    <input type="password" id="bb"><br>
+    <input type="submit">
+  </form>
+  
+
   <script>
 
     const arr = [1, 4, 3, 6, 7, 8, 5, 7];
